@@ -64,3 +64,13 @@ def sum_odd_digits(number):
 
 def square_number(number):
     return number ** 2
+
+def cube_number(number):
+    return number ** 3
+def average_digit(number):
+    digits = [int(d) for d in str(abs(number))]
+    return sum(digits) / len(digits) if digits else 0
+def is_positive(number):
+    return number > 0
+def is_negative(number):
+    return number < 0
