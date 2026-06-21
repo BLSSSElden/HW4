@@ -61,3 +61,6 @@ def sum_odd_digits(number):
         if digit % 2 == 1:
             total += digit
     return total
+
+def square_number(number):
+    return number ** 2
